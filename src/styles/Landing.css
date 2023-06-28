@@ -1,0 +1,25 @@
+.landing{
+    background-image: url('../../public/images/background.png');
+    background-size: cover;
+    height: 100vh;
+}
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .landing-container {
+    text-align: center;
+    color: white;
+  }
+  
+  .landing-container h1 {
+    font-size: 15vh;
+    margin-bottom: 20px;
+  }
+  
+  .landing-container div {
+    font-size: 5vh;
+  }
