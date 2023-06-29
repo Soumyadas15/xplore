@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Landing.css';
+import Carousel from '../components/Carousel'
 import video from '../assets/background.mp4';
+import Dest from './Dest';
 
 function Landing() {
   return (
@@ -14,6 +16,8 @@ function Landing() {
           <div>Explore the local areas</div>
         </div>
       </div>
+      <Carousel/>
+      <Dest/>
     </>
   );
 }

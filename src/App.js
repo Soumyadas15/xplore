@@ -5,7 +5,6 @@ import Landing from "./pages/Landing.js";
 import Flights from "./pages/Flights.js";
 import About from "./pages/About.js";
 import Carousel from "./components/Carousel";
-import Dest from "./pages/Dest";
 import Explore from "./pages/Explore";
 
 
@@ -23,7 +22,7 @@ function App() {
           </Routes>
         </div>
       </Router>
-      <Dest/>
+      {/* <Dest/> */}
   </>
   );
 }

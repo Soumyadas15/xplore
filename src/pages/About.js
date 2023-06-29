@@ -4,7 +4,6 @@ import Carousel from '../components/Carousel'
 export default function About() {
   return (
     <>
-    <Carousel/>
     <div className="about-us">
       <h1 className="about-us-heading">Why xplore?</h1>
       <p className="about-us-text">
