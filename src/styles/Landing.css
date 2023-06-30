@@ -1,6 +1,16 @@
+@font-face {
+  font-family: 'Mazius';
+  src: url('../assets/mazius_italic.otf') format('opentype');
+  /* Add other font properties if needed */
+}
+
 .landing {
   position: relative;
   height: 100vh;
+}
+.name {
+  font-family: 'Mazius', sans-serif;
+  font-size: larger;
 }
 
 .landing-video {
@@ -31,4 +41,18 @@
 
 .landing-container div {
   font-size: 5vh;
+}
+.animated-text {
+  animation: fade-in 1.2s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
