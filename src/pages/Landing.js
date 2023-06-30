@@ -3,6 +3,7 @@ import '../styles/Landing.css';
 import Carousel from '../components/Carousel'
 import video from '../assets/background.mp4';
 import Dest from './Dest';
+import FlightText from '../components/FLightText';
 
 function Landing() {
   return (
@@ -18,6 +19,7 @@ function Landing() {
       </div>
       <Carousel />
       <Dest />
+      <FlightText/>
     </>
   );
 }
