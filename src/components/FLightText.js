@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/FlightText.css';
 import photo from '../assets/aeroplane.png';
-import { Line } from 'three.js';
+//import { Line } from 'three.js';
 import { Link } from 'react-router-dom';
 
 const FlightText = () => {
