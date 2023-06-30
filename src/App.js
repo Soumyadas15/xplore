@@ -6,7 +6,7 @@ import Flights from "./pages/Flights.js";
 import About from "./pages/About.js";
 import Carousel from "./components/Carousel";
 import Explore from "./pages/Explore";
-
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </div>
+        <Footer/>
       </Router>
       {/* <Dest/> */}
   </>
