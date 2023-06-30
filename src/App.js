@@ -7,6 +7,7 @@ import About from "./pages/About.js";
 import Carousel from "./components/Carousel";
 import Explore from "./pages/Explore";
 import Footer from "./components/Footer";
+import Details from "./components/Details";
 
 function App() {
   return (
