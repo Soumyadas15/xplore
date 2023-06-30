@@ -11,7 +11,7 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-          <span className="spaced-text"><span id='logotext'>XPLORE</span>  <i className="fas fa-plane"></i></span>
+          <span className="spaced-text"><span id='logotext'>Xplore</span>  <i className="fas fa-plane"></i></span>
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>

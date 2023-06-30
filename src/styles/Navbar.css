@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Mazius';
+  src: url('../assets/mazius_italic.otf') format('opentype');
+  /* Add other font properties if needed */
+}
+
 .navbar {
   background-color: #000000;
   height: 80px;
@@ -21,6 +27,8 @@
 
 #logotext{
   color: white;
+  font-family: 'Mazius';
+  font-size: larger;
 }
 .nav-logo {
   color: #ff5f5f;
