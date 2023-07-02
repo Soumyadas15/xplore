@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Mazius';
+    src: url('../assets/mazius_italic.otf') format('opentype');
+    /* Add other font properties if needed */
+  }
+  
+  .about-us-container {
+    padding: 20px;
+  }
+  
+  .about-us-container h1 {
+    font-family: 'Mazius';
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .mission-vision-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .mission-vision-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .team-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .team-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .testimonials-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .contact-us-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .contact-us-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Add additional CSS for testimonials and contact form/contact information as needed */
+  
