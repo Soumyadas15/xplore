@@ -4,6 +4,7 @@ import SearchParent from '../components/SearchParent';
 function Explore() {
   return (
       <SearchParent />
+      // <div>Explore</div>
   )
 }
 
