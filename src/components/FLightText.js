@@ -9,7 +9,7 @@ const FlightText = () => {
     <>
     <div className="about-me-container">
       <div className="photo-container">
-        <img src={photo} alt="My Photo" className="my-photo" />
+        <img src={photo} className="my-photo" />
       </div>
       <div className="text-container">
         <h1 className="title">Best flight rates</h1>
