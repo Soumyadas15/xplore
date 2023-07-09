@@ -1,9 +1,10 @@
-import React from 'react'
-
+import React from 'react';
+// import SearchBar from '../components/SearchBar';
+import SearchParent from '../components/SearchParent';
 function Explore() {
   return (
-    <h1>Explore</h1>
+      <SearchParent />
   )
 }
 
-export default Explore
+export default Explore;
