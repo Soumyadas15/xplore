@@ -1,22 +1,35 @@
-// import { InfoOutlined, PlayArrow } from "@material-ui/icons";
-import '../styles/Featured.css';
+import { useState } from "react";
+import Slideshow from "./Slideshow.js";
+import { productData } from "./Data.js";
+import "../styles/Featured.css";
+
+const containerStyles = {
+  width: "auto",
+  height: "auto",
+  margin: "0 auto",
+};
 
 export default function Featured({ type }) {
+  const slides = productData.map((product) => ({
+    url: product.imageurl,
+    title: product.name,
+  }));
+
+  const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
+  const currentSlide = slides[currentSlideIndex];
+
+  const handleSlideChange = (slideIndex) => {
+    setCurrentSlideIndex(slideIndex);
+  };
+
   return (
     <div className="featured">
-      <img
-        src="https://source.unsplash.com/2GHCdtW45Uw"
-        alt=""
-      />
+      <Slideshow slides={slides} onSlideChange={handleSlideChange} />
       <div className="info">
-        <h2 classname = 'featured-dest'>
-          Featured destination
-        </h2>
-        <h1 className="place">
-          Kolkata
-        </h1>
+        <h1 className="place">{currentSlide.title}</h1>
         <span className="desc">
-           Emerge yourself in the land of dense and vibrant forests. This small place in India has a lot to captivate its tourists.
+          {productData.find((product) => product.name === currentSlide.title)
+            .description}
         </span>
       </div>
     </div>
