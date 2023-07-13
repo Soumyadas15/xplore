@@ -1,6 +1,7 @@
 .infoEx {
     padding: 6rem;
     display: flex;
+    flex-wrap: wrap;
     gap: 5rem;
     justify-content: space-around;
     background-color: #e0e0e0;
