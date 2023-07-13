@@ -1,0 +1,27 @@
+.infoEx {
+    padding: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #e0e0e0;
+}
+
+.infoEx div {
+    display: grid;
+}
+
+.infoEx div span {
+    color: rgb(111, 110, 110);
+}
+
+.infoEx div .upper {
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+.infoEx div .lower {
+    /* text-align: center; */
+    font-size: 1.3rem;
+    font-weight: bold;
+}
