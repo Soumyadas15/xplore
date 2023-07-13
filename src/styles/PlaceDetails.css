@@ -1,0 +1,33 @@
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.detailsTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.detailsImageContainer {
+  width: 100%;
+  max-width: 500px;
+}
+
+.detailsImage {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.detailsPrice {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.detailsDescription {
+  font-size: 16px;
+  margin-top: 10px;
+}
