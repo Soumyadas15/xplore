@@ -9,7 +9,7 @@ import image1 from '../slider/image1.jpg';
 import Place from "../components/Places";
 import { productData, responsive } from "../components/Data";
 
-import '../styles/Slider.css'
+import '../styles/Slider2.css'
 // import '../styles/Slide.css'
 
 function Slider2() {
@@ -23,7 +23,7 @@ function Slider2() {
   ));
   return (
     <>
-    <div className='container1'>
+    <div className='container3'>
     <div className='title_wrapper'>
       <h1>Popular destinations</h1>
     </div>

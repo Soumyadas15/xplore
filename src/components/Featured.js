@@ -5,7 +5,7 @@ export default function Featured({ type }) {
   return (
     <div className="featured">
       <img
-        src="https://source.unsplash.com/LPKk3wtkC-g"
+        src="https://source.unsplash.com/2GHCdtW45Uw"
         alt=""
       />
       <div className="info">
@@ -13,7 +13,7 @@ export default function Featured({ type }) {
           Featured destination
         </h2>
         <h1 className="place">
-          Duars
+          Kolkata
         </h1>
         <span className="desc">
            Emerge yourself in the land of dense and vibrant forests. This small place in India has a lot to captivate its tourists.
