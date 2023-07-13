@@ -19,17 +19,6 @@ const Place = ({ title, price, description, coverPhoto }) => {
         <div className="price" style={{ fontSize: '2.5vh', fontWeight: 'bold', color: '#303030' }}>{price}</div>
         <div className="description">{description}</div>
       </div>
-      {showDetails && (
-        <div className="details-container">
-          <Details
-            photo={coverPhoto}
-            title={title}
-            price={price}
-            data={description}
-            onClose={() => setShowDetails(false)}
-          />
-        </div>
-      )}
     </>
   );
 };
