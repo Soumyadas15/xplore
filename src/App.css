@@ -6,6 +6,11 @@
   padding: 0;
   overflow-x: hidden;
 }
+@supports (-webkit-min-zoom: 0) {
+  .body {
+    zoom: 0.9; /* Adjust the zoom value as needed */
+  }
+}
 *{
   margin: 0;
   padding: 0;

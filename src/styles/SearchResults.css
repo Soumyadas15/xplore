@@ -1,0 +1,39 @@
+.responsive-div {
+  background-color: #ff5f5f;
+  padding: 20px;
+  font-size: 20px;
+
+  /* Styles for screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    background-color: #ff5f5f;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  /* Styles for screens with a maximum width of 576px */
+  @media (max-width: 768px) {
+    background-color: #ff5f5f;
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+.r-div {
+  background-color: #ff5f5f;
+  padding: 20px;
+  font-size: 20px;
+
+  /* Styles for screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    background-color: #ff5f5f;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  /* Styles for screens with a maximum width of 576px */
+  @media (max-width: 768px) {
+    background-color: #ff5f5f;
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
