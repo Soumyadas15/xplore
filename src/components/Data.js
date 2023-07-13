@@ -24,7 +24,7 @@ export const productData = [
     id: 1,
     imageurl:
       "https://source.unsplash.com/LPKk3wtkC-g",
-    name: "Duars, India",
+    name: "Duars",
     price: "$19.99",
     description: " Emerge yourself in the land of dense and vibrant forests. This small place in India has a lot to captivate its tourists.",
     description2: "Some text about the product..",
@@ -33,7 +33,7 @@ export const productData = [
     id: 2,
     imageurl:
       "https://source.unsplash.com/BOf0-Sw845k",
-    name: "Budapest, Germany",
+    name: "Budapest",
     price: "$21.99",
     description: "Unveil the grandeur of the Pearl of the Danube, where history and architecture create a mesmerizing tapestry",
     description2: "Some text about the product..",
@@ -42,7 +42,7 @@ export const productData = [
     id: 3,
     imageurl:
       "https://source.unsplash.com/FbhCZlAMBUo",
-    name: "New York City, USA",
+    name: "New York",
     price: "$99.99",
     description: "Experience the pulse of the Big Apple, a city that never sleeps, where dreams are born and possibilities abound.",
     description2: "Some text about the product..",
@@ -51,7 +51,7 @@ export const productData = [
     id: 4,
     imageurl:
       "https://source.unsplash.com/2GHCdtW45Uw",
-    name: "Kolkata, India",
+    name: "Kolkata",
     price: "$14.99",
     description: "Immerse yourself in the City of Joy, where art, literature, and rich cultural heritage dance in colorful harmony.",
     description2: "Some text about the product..",
@@ -60,7 +60,7 @@ export const productData = [
     id: 5,
     imageurl:
       "https://source.unsplash.com/38hY_MCMoJs",
-    name: "Shanghai, China",
+    name: "Shanghai",
     price: "$38.99",
     description: "Step into the future in the Oriental Pearl, where modern skyscrapers stand tall amidst ancient traditions.",
     description2: "Some text about the product..",
@@ -96,7 +96,7 @@ export const productData = [
     id: 9,
     imageurl:
       "https://source.unsplash.com/BOf0-Sw845k",
-    name: "Budapest, Germany",
+    name: "Budapest",
     price: "$21.99",
     description: "Unveil the grandeur of the Pearl of the Danube, where history and architecture create a mesmerizing tapestry",
     description2: "Some text about the product..",
