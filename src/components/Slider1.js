@@ -7,13 +7,13 @@ import Explore from '../pages/Explore';
 
 import image1 from '../slider/image1.jpg';
 import Place from "../components/Places";
-import { productData, responsive } from "../components/Data";
+import { productData1, responsive1 } from "../components/Data1.js";
 
 import '../styles/Slider.css'
 import '../styles/Slide.css'
 
 function Slider1() {
-  const product = productData.map((item) => (
+  const product = productData1.map((item) => (
     <Place
       title={item.name}
       price={item.price}
@@ -28,7 +28,7 @@ function Slider1() {
       <h1>Hottest picks</h1>
     </div>
     <div>
-        <Carousel showDots={true} responsive={responsive}>
+        <Carousel showDots={true} responsive={responsive1}>
           {product}
         </Carousel>
     </div>
