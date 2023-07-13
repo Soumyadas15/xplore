@@ -7,13 +7,13 @@ import Explore from '../pages/Explore';
 
 import image1 from '../slider/image1.jpg';
 import Place from "../components/Places";
-import { productData, responsive } from "../components/Data";
+import { productData2, responsive2 } from "../components/Data2";
 
 import '../styles/Slider2.css'
 // import '../styles/Slide.css'
 
 function Slider2() {
-  const product = productData.map((item) => (
+  const product = productData2.map((item) => (
     <Place
       title={item.name}
       price={item.price}
@@ -28,7 +28,7 @@ function Slider2() {
       <h1>Popular destinations</h1>
     </div>
     <div>
-        <Carousel showDots={true} responsive={responsive}>
+        <Carousel showDots={true} responsive={responsive2}>
           {product}
         </Carousel>
     </div>
