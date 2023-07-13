@@ -14,12 +14,15 @@ import '../styles/Slide.css'
 
 function Dest() {
   const product = productData.map((item) => (
-    <Place
-      title={item.name}
-      price={item.price}
-      description={item.description}
-      coverPhoto={item.imageurl}
-    />
+    <Link to={`/places/${item.id}`} key={item.id} style={{ textDecoration: 'none' }}>
+      <Place
+        id={item.id}
+        title={item.name}
+        price={item.price}
+        description={item.description}
+        coverPhoto={item.imageurl}
+      />
+    </Link>
   ));
   return (
     <>

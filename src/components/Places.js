@@ -1,25 +1,21 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/Places.css';
-import Details from '../components/Details';
 
-import image1 from '../slider/image1.jpg';
-
-const Place = ({ title, price, description, coverPhoto }) => {
-  const [showDetails, setShowDetails] = useState(false);
+const Place = ({ id, title, price, description, coverPhoto }) => {
+  const navigate = useNavigate();
 
   const handleClick = () => {
-    setShowDetails(true);
+    console.log("Clicked");
   };
 
   return (
-    <>
-      <div className="card" onClick={handleClick}>
-        <img className="cover-photo" src={coverPhoto} alt="Cover" />
-        <div className="title" style={{ fontSize: '2.8vh' }}>{title}</div>
-        <div className="price" style={{ fontSize: '2.5vh', fontWeight: 'bold', color: '#303030' }}>{price}</div>
-        <div className="description">{description}</div>
-      </div>
-    </>
+    <div className="card" onClick={handleClick}>
+      <img className="cover-photo" src={coverPhoto} alt="Cover" />
+      <div className="title" style={{ fontSize: '2.8vh', color: '#303030' }}>{title}</div>
+      <div className="price" style={{ fontSize: '2.5vh', fontWeight: 'bold', color: '#303030' }}>{price}</div>
+      <div className="description" style={{color: '#303030' }}>{description} </div>
+    </div>
   );
 };
 

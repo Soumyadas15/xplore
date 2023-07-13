@@ -21,6 +21,7 @@ export const responsive = {
 
 export const productData = [
   {
+    value: 'xxx',
     id: 1,
     imageurl:
       "https://source.unsplash.com/LPKk3wtkC-g",
@@ -32,6 +33,7 @@ export const productData = [
   },
   {
     id: 2,
+    value: 'xxx',
     imageurl:
       "https://source.unsplash.com/BOf0-Sw845k",
     name: "Budapest",
@@ -42,6 +44,7 @@ export const productData = [
   },
   {
     id: 3,
+    value: 'xxx',
     imageurl:
       "https://source.unsplash.com/FbhCZlAMBUo",
     name: "New York",
@@ -52,6 +55,7 @@ export const productData = [
   },
   {
     id: 4,
+    value: 'xxx',
     imageurl:
       "https://source.unsplash.com/2GHCdtW45Uw",
     name: "Kolkata",
@@ -62,6 +66,7 @@ export const productData = [
   },
   {
     id: 5,
+    value: 'xxx',
     imageurl:
       "https://source.unsplash.com/38hY_MCMoJs",
     name: "Shanghai",
@@ -72,6 +77,7 @@ export const productData = [
   },
   {
     id: 6,
+    value: 'xxx',
     imageurl:
       "https://source.unsplash.com/FbhCZlAMBUo",
     name: "Coco Noir",
@@ -82,6 +88,7 @@ export const productData = [
   },
   {
     id: 7,
+    value: 'xxx',
     imageurl:
       "https://source.unsplash.com/FbhCZlAMBUo",
     name: "Sunglasses",
@@ -92,6 +99,7 @@ export const productData = [
   },
   {
     id: 8,
+    value: 'xxx',
     imageurl:
       "https://source.unsplash.com/FbhCZlAMBUo",
     name: "Dove cream",
@@ -102,6 +110,7 @@ export const productData = [
   },
   {
     id: 9,
+    value: 'xxx',
     imageurl:
       "https://source.unsplash.com/BOf0-Sw845k",
     name: "Budapest",
