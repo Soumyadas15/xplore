@@ -14,6 +14,7 @@
 
 .infoEx div .texts {
     display: grid;
+    margin-left: 1.5rem;
 }
 
 .infoEx div span {
@@ -21,18 +22,24 @@
 }
 
 .infoEx div .upper {
-    font-size: 6rem;
+    font-size: clamp(3.5rem, 4vw, 95px);
     font-weight: bolder;
 }
 
 .infoEx div .lower {
     /* text-align: center; */
-    font-size: 1.3rem;
+    font-size: clamp(1.1rem, 1.05vw, 25px);
     font-weight: bold;
 }
 
 .infoEx div .iconOut {
-    font-size: 6.5rem;
+    font-size: clamp(5.2rem, 5.3vw, 124px);
     color: rgb(146, 74, 74);
-    margin-right: 1.5rem;
+    /* margin-right: 1.5rem; */
+}
+
+@media (300px <= width <= 854px) {
+    .infoEx div .texts {
+        margin-left: 3.5rem;
+    }
 }
