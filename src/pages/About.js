@@ -1,6 +1,7 @@
 import React from 'react';
-import Carousel from '../components/Carousel';
+import Clients from '../components/Clients';
 import '../styles/About.css';
+import Places from '../components/Places';
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
         Welcome to Xplore, your ultimate destination for unforgettable travel experiences. We are passionate about creating incredible journeys that connect you with the world's most captivating destinations.
       </p>
 
-      <Carousel />
+      <Clients/>
 
       <div className="mission-container">
         <h2>Our Mission</h2>
@@ -31,7 +32,10 @@ const About = () => {
         <p>
           Behind Xplore is a team of experienced travel enthusiasts who are dedicated to curating unique and enriching travel experiences. Our team consists of expert guides, travel planners, and customer support professionals, all working together to ensure your journey is seamless and memorable.
         </p>
+      
       </div>
+      
+      
 
       <div className="testimonials-container">
         <h2>What Our Customers Say</h2>
