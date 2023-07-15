@@ -39,7 +39,7 @@
 .featured .info {
     width: 35%;
     position: absolute;
-    left: 50px;
+    left: 7vw;
     bottom: 100px;
     color: white;
     display: flex;
@@ -48,7 +48,7 @@
 
 .featured .info .place {
     font-family: 'Mazius';
-    font-size: 10vw;
+    font-size: 11vw;
     color: rgb(255, 255, 255);
 }
 

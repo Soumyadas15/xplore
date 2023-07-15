@@ -1,0 +1,45 @@
+.infoEx {
+    padding: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #e0e0e0;
+}
+
+.infoEx div {
+    display: flex;
+    align-items: center;
+}
+
+.infoEx div .texts {
+    display: grid;
+    margin-left: 1.5rem;
+}
+
+.infoEx div span {
+    color: rgb(111, 110, 110);
+}
+
+.infoEx div .upper {
+    font-size: clamp(3.5rem, 4vw, 95px);
+    font-weight: bolder;
+}
+
+.infoEx div .lower {
+    /* text-align: center; */
+    font-size: clamp(1.1rem, 1.05vw, 25px);
+    font-weight: bold;
+}
+
+.infoEx div .iconOut {
+    font-size: clamp(5.2rem, 5.3vw, 124px);
+    color: #ff5f5f;
+    /* margin-right: 1.5rem; */
+}
+
+@media (300px <= width <= 854px) {
+    .infoEx div .texts {
+        margin-left: 3.5rem;
+    }
+}
