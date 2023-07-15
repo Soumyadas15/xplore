@@ -16,7 +16,7 @@ const Slider2 = () => {
         title={item.name}
         price={item.price}
         description={item.description}
-        coverPhoto={item.imageurl}
+        coverPhoto={item.imageurl2}
       />
     </Link>
   ));

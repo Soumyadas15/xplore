@@ -25,6 +25,10 @@ export const productData = [
     id: 1,
     imageurl:
       "https://source.unsplash.com/LPKk3wtkC-g",
+    imageurl2:
+      "https://source.unsplash.com/LPKk3wtkC-g",
+    imageurl3:
+      "https://source.unsplash.com/LPKk3wtkC-g",
     name: "Duars",
     country: 'India',
     price: "$19.99",
@@ -36,6 +40,10 @@ export const productData = [
     value: 'xxx',
     imageurl:
       "https://source.unsplash.com/BOf0-Sw845k",
+    imageurl2:
+      "https://source.unsplash.com/LPKk3wtkC-g",
+    imageurl3:
+      "https://source.unsplash.com/LPKk3wtkC-g",
     name: "Budapest",
     country: 'Germany',
     price: "$21.99",
@@ -47,6 +55,10 @@ export const productData = [
     value: 'xxx',
     imageurl:
       "https://source.unsplash.com/FbhCZlAMBUo",
+    imageurl2:
+      "https://source.unsplash.com/LPKk3wtkC-g",
+    imageurl3:
+      "https://source.unsplash.com/LPKk3wtkC-g",
     name: "New York",
     country: 'USA',
     price: "$99.99",
@@ -58,6 +70,10 @@ export const productData = [
     value: 'xxx',
     imageurl:
       "https://source.unsplash.com/2GHCdtW45Uw",
+    imageurl2:
+      "https://source.unsplash.com/LPKk3wtkC-g",
+    imageurl3:
+      "https://source.unsplash.com/LPKk3wtkC-g",
     name: "Kolkata",
     country: 'India',
     price: "$14.99",
@@ -69,6 +85,10 @@ export const productData = [
     value: 'xxx',
     imageurl:
       "https://source.unsplash.com/38hY_MCMoJs",
+    imageurl2:
+      "https://source.unsplash.com/LPKk3wtkC-g",
+    imageurl3:
+      "https://source.unsplash.com/LPKk3wtkC-g",
     name: "Shanghai",
     country: 'China',
     price: "$38.99",
@@ -80,6 +100,10 @@ export const productData = [
     value: 'xxx',
     imageurl:
       "https://source.unsplash.com/FbhCZlAMBUo",
+    imageurl2:
+      "https://source.unsplash.com/LPKk3wtkC-g",
+    imageurl3:
+      "https://source.unsplash.com/LPKk3wtkC-g",
     name: "Coco Noir",
     country: 'India',
     price: "$149.99",
@@ -91,6 +115,10 @@ export const productData = [
     value: 'xxx',
     imageurl:
       "https://source.unsplash.com/FbhCZlAMBUo",
+    imageurl2:
+      "https://source.unsplash.com/LPKk3wtkC-g",
+    imageurl3:
+      "https://source.unsplash.com/LPKk3wtkC-g",
     name: "Sunglasses",
     country: 'India',
     price: "$38.99",
@@ -102,6 +130,10 @@ export const productData = [
     value: 'xxx',
     imageurl:
       "https://source.unsplash.com/FbhCZlAMBUo",
+    imageurl2:
+      "https://source.unsplash.com/LPKk3wtkC-g",
+    imageurl3:
+      "https://source.unsplash.com/LPKk3wtkC-g",
     name: "Dove cream",
     country: 'India',
     price: "$49.99",
@@ -113,6 +145,10 @@ export const productData = [
     value: 'xxx',
     imageurl:
       "https://source.unsplash.com/BOf0-Sw845k",
+    imageurl2:
+      "https://source.unsplash.com/LPKk3wtkC-g",
+    imageurl3:
+      "https://source.unsplash.com/LPKk3wtkC-g",
     name: "Budapest",
     country: 'Germany',
     price: "$21.99",
