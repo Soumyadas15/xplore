@@ -16,9 +16,21 @@ function SearchParent() {
 
     // Simulating a search with dummy data
     const dummyData = [
-      { id: 1, title: 'Result 1' },
-      { id: 2, title: 'Result 2' },
-      { id: 3, title: 'Result 3' },
+      { id: 1, title: 'Kolkata, India' },
+      { id: 2, title: 'Shanghai, China' },
+      { id: 3, title: 'Santorini, Greece' },
+      { id: 4, title: 'Bucharest, Romania' },
+      { id: 5, title: 'Munich, Germnay' },
+      { id: 6, title: 'Cairo, Egypt' },
+      { id: 7, title: 'New York, USA' },
+      { id: 8, title: 'Los Angeles, USA' },
+      { id: 9, title: 'Goa, India' },
+      { id: 10, title: 'Sydney, Australia' },
+      { id: 11, title: 'Melbourne, Australia' },
+      { id: 12, title: 'Queenstown, New Zealand' },
+      { id: 13, title: 'Helsinki, Finlad' },
+      { id: 14, title: 'Warsaw, Poland' },
+      { id: 15, title: 'Ho Chi Minh City, Vietnam' },
     ];
 
     const filteredResults = dummyData.filter((result) =>
