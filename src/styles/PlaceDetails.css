@@ -17,10 +17,10 @@
 
 .detailsImage {
   width: 100%;
-  font-size:30px ;
+  font-size: 30px;
   height: auto;
   max-width: 100%;
-  text-align: center; 
+  text-align: center;
 }
 
 .detailsPrice {
@@ -33,6 +33,7 @@
   font-size: 16px;
   margin-top: 10px;
 }
+
 .detailsImage1 {
   margin-top: 1.5rem;
   color: rgba(3, 19, 19, 0.779);
@@ -41,28 +42,33 @@
   max-width: 100%;
   text-align: center;
 }
-.description1{
- width:min-content;
- font-size: 25px;
- margin-left:2rem ;
- margin-right:2rem;
- 
+
+.description1 {
+  width: min-content;
+  font-size: 25px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
   /* align-items: center; */
 }
-.description1 h3{
+
+.description1 h3 {
   margin-right: 2px;
 }
-.Nilay{
+
+.Nilay {
   align-items: center;
-   justify-content: space-between; 
+  justify-content: space-between;
   display: flex;
 }
-.jaldapara{
+
+.jaldapara {
   height: 512px;
   width: 768px;
-} 
-@media(300px<=width <=854px){
-  .Nilay{
+}
+
+@media(300px<=width <=854px) {
+  .Nilay {
     flex-direction: column;
   }
 }

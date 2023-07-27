@@ -88,6 +88,7 @@
   
   .footer-link-items > h2 {
     color: #fff;
+    background-color: transparent;
   }
   
   .footer-link-items a {

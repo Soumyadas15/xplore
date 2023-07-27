@@ -1,0 +1,106 @@
+
+.plane {
+  margin: 20px auto;
+  max-width: 380px;
+  background-color: #e0e0e0;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  color: rgb(42, 165, 138);
+  overflow: hidden;
+  margin-bottom: 200px;
+}
+
+.select {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.select h1 {
+  width: 60%;
+  margin: 100px auto 35px auto;
+  color: #25274D;
+  background-color: #e0e0e0;
+}
+
+.exit {
+  height: 70px;
+  position: relative;
+}
+
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.seats {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+
+}
+
+.seat {
+  display: flex;
+  flex: 0 0 14.28%;
+  padding: 5px;
+  position: relative;
+
+}
+
+.seat label {
+  display: block;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+  line-height: 1.5rem;
+  padding: 4px 0;
+  background: #fff;
+  border-radius: 5px;
+  color: black;
+}
+
+.seat label:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0px 2px green;
+}
+
+.seat input[type=checkbox] {
+  position: absolute;
+}
+
+seat input[type=checkbox]:checked+label {
+  background: #656e65;
+}
+
+.seat:nth-child(3) {
+  margin-right: 14%;
+}
+
+.all {
+  margin-left: 1200px;
+  margin-top: -600px;
+}
+
+.meal {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+
+.lug {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+
+.ticket {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+

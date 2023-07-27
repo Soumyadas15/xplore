@@ -1,0 +1,31 @@
+.final-price-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ff5f5f;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.price-details {
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #f0f5ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.price-details p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.price-details .total-price {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff5f5f;
+}

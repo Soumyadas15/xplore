@@ -1,8 +1,12 @@
 import "./App.css";
 import NavBar from "./components/Navbar";
-import { BrowserRouter as Router,  Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Landing from "./pages/Landing.js";
 import Flights from "./pages/Flights.js";
+import Book from "./pages/Book.js";
+import Meal from "./pages/Meal.js";
+import Luggage from "./pages/Luggage.js";
+import Confirm from "./pages/Confirm.js";
 import About from "./pages/About.js";
 import Carousel from "./components/Carousel";
 import Explore from "./pages/Explore";
@@ -24,15 +28,19 @@ function App() {
             <Route path="/explore" element={<Explore />} />
             <Route path="/flights" element={<Flights />} />
             <Route path="/about" element={<About />} />
+            <Route path="/book" element={<Book />} />
+            <Route path="/meal" element={< Meal />} />
+            <Route path="/luggage" element={< Luggage />} />
+            <Route path="/confirm" element={< Confirm />} />
             {productData.map((place) => (
-            <Route key={place.id} path={`/places/${place.id}`} element={<PlaceDetails id={place.id} />} />
-          ))}
+              <Route key={place.id} path={`/places/${place.id}`} element={<PlaceDetails id={place.id} />} />
+            ))}
           </Routes>
         </div>
-        <Footer/>
+        <Footer />
       </Router>
       {/* <Dest/> */}
-  </>
+    </>
   );
 }
 
