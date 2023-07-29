@@ -5,7 +5,7 @@
     padding: 20px;  
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #ff5f5f;
+    color: None;
     
 }
 
@@ -14,7 +14,7 @@ h2 {
     margin-bottom: 20px;
     padding: 20px;
     color: #fff;
-    background-color: #ff5f5f;
+    background-color: None;
 }
 
 select {
@@ -22,7 +22,7 @@ select {
     font-size: 16px;
     margin-top: 10px;
     width: 100%;
-    color: #ff5f5f;
+    color: None;
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #fff;
@@ -31,7 +31,7 @@ select {
 .selected-meal {
     margin-top: 20px;
     text-align: center;
-    color: #ff5f5f;
+    color: None;
 }
 
 .selected-meal img {
@@ -42,6 +42,6 @@ select {
 }
 
 .a5 {
-    color: #ff5f5f;
+    color: None;
     font-size: 18px;
 }
