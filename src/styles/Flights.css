@@ -102,14 +102,14 @@ input[type="date"]::placeholder {
 
 input[type="text"]:focus,
 input[type="date"]:focus {
-    border-color: #ff5f5f;
+    border-color: None;
 }
 
 button {
     display: inline-block;
     padding: 15px 20px;
     margin-top: 10px;
-    background-color: #ff5f5f;
+    background-color: None;
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -186,14 +186,14 @@ h3 {
 .result-item .price {
     font-weight: bold;
     font-size: 24px;
-    color: #ff5f5f;
+    color: None;
     margin-right: 50px;
 }
 
 .book-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff5f5f;
+    background-color: None;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;

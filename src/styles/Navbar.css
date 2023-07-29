@@ -31,7 +31,7 @@
   font-size: larger;
 }
 .nav-logo {
-  color: #ff5f5f;
+  color: rgb(255, 80, 80);
   align-items: center;
   font-weight: bolder;
   margin-left: 20px;
@@ -76,12 +76,12 @@
 
 .nav-item:hover:after {
   width: 100%;
-  background: #ff5f5f;
+  background: rgb(255, 80, 80);
 }
 
 .nav-item .active {
   color: #000000;
-  background: #ff5f5f;
+  background: rgb(255, 80, 80);
 }
 
 .nav-icon {

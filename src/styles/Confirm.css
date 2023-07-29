@@ -1,7 +1,7 @@
 .final-price-page {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #ff5f5f;
+    background-color: None;
 }
 
 h2 {
@@ -27,5 +27,5 @@ h2 {
 .price-details .total-price {
     font-weight: bold;
     font-size: 20px;
-    color: #ff5f5f;
+    color: None;
 }

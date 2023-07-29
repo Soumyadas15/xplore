@@ -165,18 +165,18 @@
     margin-top: -8%;
     font-size: large;
     font-weight: bold;
-    color: #ff5f5f;
-    border: #ff5f5f 2px solid;
+    color: None;
+    border: None 2px solid;
   }
   
   .button_wrapper button:hover{
-    background-color: #ff5f5f;
+    background-color: None;
     width: 20vw;
     height: 6vh;
     font-size: large;
     font-weight: bold;
     color: white;
-    border: #ff5f5f 2px solid;
+    border: None 2px solid;
     transition: 0.3s;
   }
   

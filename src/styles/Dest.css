@@ -7,6 +7,9 @@
   padding-left: 2%;
   overflow: hidden;
 }
+.title_wrapper h1{
+  color: black;
+}
 
 .containerX .reactLogo {
   width: 5vw;
@@ -29,7 +32,6 @@
 }
 
 .containerX .title_ {
-  color: #1f1f1f;
   text-align: left;
   font-size: 3vw;
   font-weight: bold;
@@ -130,6 +132,7 @@
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
+  color: black;
 }
 
 .price {
@@ -162,18 +165,18 @@
   margin-top: -8%;
   font-size: large;
   font-weight: bold;
-  color: #ff5f5f;
-  border: #ff5f5f 2px solid;
+  color: None;
+  border: None 2px solid;
 }
 
 .button_wrapper button:hover{
-  background-color: #ff5f5f;
+  background-color: None;
   width: 20vw;
   height: 6vh;
   font-size: large;
   font-weight: bold;
   color: white;
-  border: #ff5f5f 2px solid;
+  border: None 2px solid;
   transition: 0.3s;
 }
 
