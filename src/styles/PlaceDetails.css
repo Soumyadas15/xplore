@@ -60,6 +60,9 @@
   align-items: center;
   justify-content: space-between;
   display: flex;
+  margin-bottom: 30px;
+  /* margin-right: 1rem; */
+  /* margin-left: 0.5rem; */
 }
 
 .jaldapara {
