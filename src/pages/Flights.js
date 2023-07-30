@@ -52,40 +52,42 @@ function FlightPage() {
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
             </Helmet>
             <section className="hero">
-                <h2>Find the Best Flight Deals</h2>
-                <form id="flightSearchForm" onSubmit={handleSubmit}>
-                    <div className="form-group">
-                        <label htmlFor="origin">Origin</label>
-                        <div className="input-group">
-                            <i className="input-group-icon fas fa-map-marker-alt"></i>
-                            <input type="text" id="origin" placeholder="Enter origin" required value={origin} onChange={handleOriginChange} />
-                        </div>
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="destination">Destination</label>
-                        <div className="input-group">
-                            <i className="input-group-icon fas fa-map-marker-alt"></i>
-                            <input type="text" id="destination" placeholder="Enter destination" required value={destination} onChange={handleDestinationChange} />
-                        </div>
-                    </div>
-                    <div className="form-group">
-                        <div className="date-labels">
-                            <label htmlFor="departure">Departure Date</label>
-                            <label htmlFor="arrival">Arrival Date</label>
-                        </div>
-                        <div className="input-group input-group-date">
-                            <div className="input-group-item">
-                                <i className="input-group-icon far fa-calendar-alt"></i>
-                                <input type="date" id="departure" placeholder="Select departure date" required value={departureDate} onChange={handleDepartureDateChange} />
-                            </div>
-                            <div className="input-group-item">
-                                <i className="input-group-icon far fa-calendar-alt a1"></i>
-                                <input type="date" id="arrival" placeholder="Select arrival date" />
+                <div className="hero-box">
+                    <h2>Find the Best Flight Deals</h2>
+                    <form id="flightSearchForm" onSubmit={handleSubmit}>
+                        <div className="form-group">
+                            <label htmlFor="origin">Origin</label>
+                            <div className="input-group">
+                                <i className="input-group-icon fas fa-map-marker-alt"></i>
+                                <input type="text" id="origin" placeholder="Enter origin" required value={origin} onChange={handleOriginChange} />
                             </div>
                         </div>
-                    </div>
-                    <button type="submit">Search Flights</button>
-                </form>
+                        <div className="form-group">
+                            <label htmlFor="destination">Destination</label>
+                            <div className="input-group">
+                                <i className="input-group-icon fas fa-map-marker-alt"></i>
+                                <input type="text" id="destination" placeholder="Enter destination" required value={destination} onChange={handleDestinationChange} />
+                            </div>
+                        </div>
+                        <div className="form-group">
+                            <div className="date-labels">
+                                <label htmlFor="departure">Departure Date</label>
+                                <label htmlFor="arrival">Arrival Date</label>
+                            </div>
+                            <div className="input-group input-group-date">
+                                <div className="input-group-item">
+                                    <i className="input-group-icon far fa-calendar-alt"></i>
+                                    <input type="date" id="departure" placeholder="Select departure date" required value={departureDate} onChange={handleDepartureDateChange} />
+                                </div>
+                                <div className="input-group-item">
+                                    <i className="input-group-icon far fa-calendar-alt a1"></i>
+                                    <input type="date" id="arrival" placeholder="Select arrival date" />
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit">Search Flights</button>
+                    </form>
+                </div>
             </section>
 
             <section className="results">
