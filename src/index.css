@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/Montserrat.otf') format('opentype');
+  
+}
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -21,4 +26,3 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
-

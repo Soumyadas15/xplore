@@ -16,19 +16,33 @@ body {
     background-size: cover;
     color: #fff;
     padding: 80px;
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-box {
+    background-color: rgba(255, 255, 255, 1.0);
+    opacity: 30;
+    width: 50em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+    padding: 2em;
 }
 
 .hero h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #fff;
+    color: #080808;
     background-color: transparent;
 }
 
 form {
     max-width: 500px;
     margin: 0 auto;
+    color: #000;
 }
 
 .form-group {
@@ -40,7 +54,8 @@ label {
     font-weight: bold;
     margin-bottom: 10px;
     font-size: 18px;
-    color: #fff;
+    
+    border: none;
 }
 
 .input-group {
@@ -61,7 +76,7 @@ label {
 .date-labels label {
     flex-basis: calc(50% - 10px);
     font-size: 18px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .input-group-item {
@@ -80,7 +95,7 @@ label {
     top: 50%;
     transform: translateY(-50%);
     font-size: 18px;
-    color: #999;
+    color: #353535;
 }
 
 input[type="text"],
@@ -91,7 +106,7 @@ input[type="date"] {
     border: none;
     border-bottom: 1px solid #ccc;
     background-color: transparent;
-    color: #fff;
+    color: #000000;
     font-size: 16px;
 }
 
@@ -109,7 +124,7 @@ button {
     display: inline-block;
     padding: 15px 20px;
     margin-top: 10px;
-    background-color: None;
+    background-color: black;
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -119,7 +134,7 @@ button {
 }
 
 button:hover {
-    background-color: #ba4242;
+    background-color: #ff5f5f;
 }
 
 .results {
@@ -193,7 +208,7 @@ h3 {
 .book-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: None;
+    background-color: Black;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;

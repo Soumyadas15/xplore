@@ -1,10 +1,16 @@
 .App {
   text-align: center;
 }
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/Montserrat.otf') format('opentype');
+  
+}
 .body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
 }
 @supports (-webkit-min-zoom: 0) {
   .body {

@@ -34,7 +34,7 @@
 
 .infoEx div .iconOut {
     font-size: clamp(5.2rem, 5.3vw, 124px);
-    color: rgb(255, 93, 93);
+    color: #ff5f5f;
     /* margin-right: 1.5rem; */
 }
 
