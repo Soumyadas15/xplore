@@ -14,12 +14,12 @@ const FlightText = () => {
       <div className="text-container">
         <h1 className="title">Best flight rates</h1>
         <p className="description">
-          Hi, I'm John Doe. I'm a passionate software engineer with expertise in web development. I love building
-          interactive and user-friendly websites that provide great user experiences. I have experience working with
-          various front-end frameworks and technologies, including React.js, HTML, CSS, and JavaScript. I am constantly
-          learning and exploring new technologies to improve my skills and stay up-to-date with the latest industry
-          trends. When I'm not coding, you can find me hiking, playing video games, or experimenting with new recipes in
-          the kitchen.
+        Our vision at Xplore is to revolutionize the way people experience and interact with the world 
+        through travel. We envision a future where every traveler can embark on a transformative journey 
+        that leaves a positive impact on both the places they visit and the people they meet. Through 
+        our innovative technology and commitment to responsible tourism, we aim to connect global 
+        travelers to local communities, preserving and celebrating the richness of cultural heritage 
+        and natural wonders.
         </p>
         <div className='button_warpper'>
         <Link to='/flights'>

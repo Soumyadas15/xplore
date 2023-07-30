@@ -1,57 +1,39 @@
 import React from 'react';
-import Clients from '../components/Clients';
-import '../styles/About.css';
-import Places from '../components/Places';
+import Cards from '../components/Cards';
+import Info from '../components/Info';
+import { CardGiftcard, Visibility, CheckCircle } from '@mui/icons-material';
 
 const About = () => {
   return (
-    <div className="about-container">
-      <h1>About Xplore</h1>
-      <p>
-        Welcome to Xplore, your ultimate destination for unforgettable travel experiences. We are passionate about creating incredible journeys that connect you with the world's most captivating destinations.
-      </p>
-
-      <Clients/>
-
-      <div className="mission-container">
-        <h2>Our Mission</h2>
-        <p>
-          At Xplore, our mission is to inspire and enable people to explore the world. We strive to provide exceptional travel services that exceed our customers' expectations and create lifelong memories.
-        </p>
+    <div style={{ margin: '0' }}>
+      <h1 style={{ textAlign: 'center', marginBottom: '10px', color: 'black'}}>Developers and Makers</h1>
+      <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }}>
+        <div style={{ flex: 1, margin: '100px', borderRadius: '8px', background: '#e8e8e8' }}>
+          <h2 style={{ display: 'flex', alignItems: 'center', marginBottom: '20px', color: '#ff5f5f' }}>
+            <Visibility style={{ marginRight: '10px' }} />
+            Our Vision
+          </h2>
+          <div style={{ background: '#ff5f5f', height: '3px', marginBottom: '10px' }}></div>
+          <p style={{ textAlign: 'justify', color: '#444', paddingLeft: '180px', paddingRight: '50px' }}>
+          Our vision at Xplore is to revolutionize the way people experience and interact with the world through travel. We envision a future where every traveler can embark on a transformative journey that leaves a positive impact on both the places they visit and the people they meet. Through our innovative technology and commitment to responsible tourism, we aim to connect global travelers to local communities, preserving and celebrating the richness of cultural heritage and natural wonders.
+          </p>
+        </div>
+        <div style={{ flex: 1, margin: '100px', padding: '20px', borderRadius: '8px', background: '#e8e8e8' }}>
+          <h2 style={{ display: 'flex', alignItems: 'center', marginBottom: '20px', color: '#ff5f5f' }}>
+            <CardGiftcard style={{ marginRight: '10px' }} />
+            Our Mission
+          </h2>
+          <div style={{ background: '#ff5f5f', height: '3px', marginBottom: '10px' }}></div>
+          <p style={{ textAlign: 'justify', color: '#444',  paddingLeft: '180px', paddingRight: '50px'}}>
+          At Xplore, our mission is to inspire wanderlust and create unforgettable travel experiences for adventurers and explorers alike. We aim to be the go-to platform for travelers seeking authentic, immersive, and sustainable journeys around the world. By providing a diverse range of travel resources, expert guides, and personalized recommendations, we strive to empower travelers to discover the beauty of our planet while fostering a deeper appreciation for different cultures and environments.
+          </p>
+        </div>
       </div>
-
-      <div className="vision-container">
-        <h2>Our Vision</h2>
-        <p>
-          We envision a world where everyone has the opportunity to discover and appreciate the beauty and diversity of our planet. Through our carefully crafted itineraries and dedicated team, we aim to make travel accessible, enjoyable, and sustainable for all.
-        </p>
-      </div>
-
-      <div className="team-container">
-        <h2>Meet Our Team</h2>
-        <p>
-          Behind Xplore is a team of experienced travel enthusiasts who are dedicated to curating unique and enriching travel experiences. Our team consists of expert guides, travel planners, and customer support professionals, all working together to ensure your journey is seamless and memorable.
-        </p>
-      
-      </div>
-      
-      
-
-      <div className="testimonials-container">
-        <h2>What Our Customers Say</h2>
-        {/* Add testimonials or customer reviews here */}
-      </div>
-
-      <div className="contact-container">
-        <h2>Contact Us</h2>
-        <p>
-          If you have any questions, feedback, or would like to start planning your next adventure, please don't hesitate to get in touch with us. Our friendly customer support team is available 24/7 to assist you.
-        </p>
-        {/* Add contact form or contact information here */}
-      </div>
+      <h1 style={{ textAlign: 'center', margin: '0', color: '#ff5f5f' }}>Meet Our Team</h1>
+      <Cards />
+      <Info/>
     </div>
   );
 };
 
 export default About;
-
